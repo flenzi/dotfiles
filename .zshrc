@@ -95,10 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-export M2_HOME=~/programas/apache-maven-3.5.3/
-export PATH=$PATH:$M2_HOME/bin
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/federico/.sdkman"
 [[ -s "/home/federico/.sdkman/bin/sdkman-init.sh" ]] && source "/home/federico/.sdkman/bin/sdkman-init.sh"
